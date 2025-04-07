@@ -9,18 +9,18 @@ public class ContaTerminal {
         System.out.println("~~ Seu dinheiro, nossa felicidade");
         System.out.println("--------------------------------------");
 
-        System.out.println("Por favor, informe o número da Agência: \n");
+        System.out.println("Por favor, informe o número da Agência: ");
         int numero = teclado.nextInt();
 
         teclado.nextLine();
 
-        System.out.println("Informe o nome da Agência: \n");
+        System.out.println("Informe o nome da Agência: ");
         String agencia = teclado.nextLine();
 
-        System.out.println("Informe seu nome: \n");
+        System.out.println("Informe seu nome: ");
         String nome = teclado.nextLine();
 
-        System.out.println("Por fim, informe o valor do seu saldo: \n");
+        System.out.println("Por fim, informe o valor do seu saldo (com vírgulas): ");
         double saldo = teclado.nextDouble();
 
         String msg = "Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é ( " + agencia +" ), conta ( " + numero + " ) e seu saldo de ( R$"+ saldo + " ) já está disponível para saque.";
